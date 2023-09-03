@@ -1,0 +1,115 @@
+*{margin: 0;
+padding: 0;}
+
+/* google font  */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&family=Secular+One&display=swap');
+
+
+
+/* global class  */
+:root{
+    --white-color:#fff;
+    --bgp-color:#FFF8F3;
+    --span-color:#FD6E0A;
+    --btn-color:#FD6E0A;
+}
+ .hero-text{
+    font-family: 'Secular One', sans-serif;
+    font-size: 85px;
+ }
+ h2{
+    font-family: 'Roboto Slab', serif;
+   font-size: 40px;
+ }
+.w-90{
+    width: 90%;
+    margin: 0 auto;
+}
+.half-width{
+    width: 50%;
+}
+.btn{
+    display: inline-block;
+    margin: 10px 0;
+    margin-right: 15px;
+    
+    padding: 15px 30px ;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: 2px solid var(--btn-color);
+    text-decoration: none;
+   
+
+}
+.align-right{
+    text-align: end;
+}
+.btn-primary{
+    background-color: var(--btn-color); 
+    color: var(--white-color);
+}
+.btn-outline{
+    outline: 2px solid var(--btn-color);
+    /* background-color: #FD6E0A;  */
+    color: var(--btn-color);
+}
+
+
+
+
+/* header  */
+header{
+    background-color: var(--bgp-color);
+   background-image: url(../img/developer.png);
+   background-repeat: no-repeat;
+   background-position: left;
+  
+   
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header nav a{
+text-decoration: none;
+}
+header .navbar-nav{
+    display: flex;
+
+}
+header .navbar-nav li {
+    list-style: none;
+}
+header .navbar-nav li a{
+display: block;
+margin: 15px 15px;
+padding: 15px 30px;
+border-radius: 5px;
+font-size: 18px;
+/* background-color: rgb(3, 58, 255);
+color: var(--white-color); */
+}
+.latter-span{
+    color: var(--span-color)
+}
+ #banner .row{
+    padding-top: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+ }
+ #banner{
+    background-image:url(../img/header_bg.png) ;
+    background-repeat: no-repeat;
+   background-position: bottom right ;
+ }
+ #banner .half-width .banner-image{
+    display: flex;
+    justify-content: end;
+ }
